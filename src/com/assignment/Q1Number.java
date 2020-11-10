@@ -12,7 +12,7 @@ public class Q1Number implements Runnable {
         synchronized (object) {
             for (int i = 1; i < 53; i++) {
                 if (i > 1 && i % 2 == 1) {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
                 System.out.print(i);
                 if (i % 2 == 0) {
