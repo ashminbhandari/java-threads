@@ -12,13 +12,13 @@ public class Q3 {
                 System.out.println(carName + " has found a spot. The " + i + " spot was free.");
                 parkingSpace[i] = true; //park
 
-                //for some seconds
+                //for some millis
                 Random rand = new Random();
                 int parkTime = rand.nextInt(10000);
                 System.out.println(carName + " bought a ticket for " + parkTime + " seconds.");
-
-                //leave
                 wait(parkTime); //for some millis
+                
+                //leave
                 parkingSpace[i] = false;
                 System.out.println(carName + " finished their parking time and has now left the lot.");
                 break;
