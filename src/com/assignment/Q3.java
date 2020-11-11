@@ -1,11 +1,3 @@
-/*
-3. Assuming that the garage has 3 parking spaces
-(the garage can be represented by the boolean[] array), write a program to simulate the
-effect of multiple users driving away and parking into the garage.
-Note: You cannot park when there is a car in the parking space.
-(hint: each thread represents a car, and use main funciton
-to create new threads and run them, you can limit the total number of cars to be created)
- */
 package com.assignment;
 
 import java.util.Random;
