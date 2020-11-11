@@ -10,7 +10,6 @@ package com.assignment;
 
 import java.util.Random;
 
-
 public class Q3 {
     private boolean[] parkingSpace = new boolean[3];
 

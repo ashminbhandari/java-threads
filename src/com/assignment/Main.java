@@ -39,6 +39,5 @@ public class Main {
         new CarThread(y, "Tesla").start();
         TimeUnit.MILLISECONDS.sleep(200);
         new CarThread(y, "Jeep").start();
-
     }
 }
